@@ -1,0 +1,181 @@
+%-------------------------
+% Resume in Latex
+% Author : Justin ODea
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://github.com/MacBookProne/}{\Large Justin O'Dea}} & Email : \href{odeajustin@gmail.com}{odeajustin@gmail.com}\\
+  \href{https://github.com/MacBookProne/}{https://github.com/MacBookProne} & Mobile : +1-406-890-3129 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Montana State University}{Bozeman, MT}
+      {Bachelors of Science in Computer Science;  GPA: 3.2}{Jan. 2013 -- May. 2018}
+    \resumeSubheading
+      {Python Programming Course Summer Semester 2017}{Vienna, Austria}
+      {Python Programming;  GPA: B+ }{May. 2017 -- June. 2017}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {WesternCPE}{Bozeman, MT}
+      {Customer Care Specialist| Webcast Specialist}{Oct 2019 - Present}
+      \resumeItemListStart
+        \resumeItem{Customer Care}
+          {As a Customer Care Specialist I am in charge of answering phone calls as well as answering chats using the Zendesk web client. I also helped register clients for confrences as well as Webcasts and Self Study Courses.}
+        \resumeItem{Webcast}
+          {As a Webcast Specialist I was in charge of starting and ending Webcasts. Issuing certifacates of completion of courses as well as trouble shooting computer issues.}
+      \resumeItemListEnd
+
+% --------Multiple Positions Heading------------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Montana State Univeristy}{Bozeman, MT}
+      {Weekend Student Custodian}{Aug 2013 - May 2018}
+      \resumeItemListStart
+
+        \item Clean and sanitize all restrooms.
+        \item Restock toiletries in building.
+        \item Provide a sanitary and transcendent living area for residents.
+        \item  Served in an on-call rotation for messes that occur at night.
+        \item  Student staff member cleans their residence hall on the weekend
+      \resumeItemListEnd
+      \resumeSubheading
+        {Montana State University Bookstore}{Bozeman, MT}
+        {Board of Directors}{May 2015 - May 2017}
+        \resumeItemListStart
+
+        \item Approve board minutes.
+        \item Monitor and control function of store.
+        \item Govern the organization or business.
+        \item Establish vision, values, and mission of bookstore.
+        \item Set structure, strategy of the business.
+        \item Talk financials of business.
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{ACADEMIC SCHOLAR PROGRAMS}
+  \resumeSubHeadingListStart
+    \resumeSubheading{McNair Scholars Program}
+    {}{Montana State Univeristy}
+    {Oct 2015 - Dec 2017}
+    \resumeItemListStart
+    \item Participated in 10-week summer project
+    \item Attended bimonthly lecturers and seminars
+    \item Received 4500 stipend to conduct research project
+    \item Successfully completed Institutional Review Board (IRB) application process
+    \item Completed GRE pretesting.
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
