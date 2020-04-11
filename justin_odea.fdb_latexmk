@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1586561038 "justin_odea.tex" "justin_odea.pdf" "justin_odea" 1586561038
+["pdflatex"] 1586632820 "justin_odea.tex" "justin_odea.pdf" "justin_odea" 1586632856
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -66,11 +66,11 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "justin_odea.aux" 1586561038 1083 64fa823ee6a6f8d0a428885b8c9e6463 ""
-  "justin_odea.out" 1586561038 149 c9c07446150e5d11cc8c87f2e185f399 ""
-  "justin_odea.tex" 1586561037 5861 1d8466d46193946816a0ab55ee5eb863 ""
+  "justin_odea.aux" 1586632820 1174 ab1fb795bae682d508df7da31c7a6c03 ""
+  "justin_odea.out" 1586632820 202 174f2fdcfae2387bd0aa71f7c7de9c14 ""
+  "justin_odea.tex" 1586632856 5919 b5bdb3cb8708e7a0143d23d1a6c5e502 ""
   (generated)
-  "justin_odea.out"
-  "justin_odea.pdf"
   "justin_odea.log"
   "justin_odea.aux"
+  "justin_odea.pdf"
+  "justin_odea.out"
